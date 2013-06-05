@@ -3,13 +3,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.1_9
-Release:          2
+Version:          1.1.9
+Release:          1
 Summary:          Applied Econometrics with R
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-9.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/AER_1.1-9.tar.gz
 Requires:         R-stats R-car R-Formula R-lmtest R-sandwich R-strucchange
 Requires:         R-survival R-zoo R-stats
 %if %{with bootstrap}
@@ -76,3 +76,4 @@ fi
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/demo
 %{rlibdir}/%{packname}/help
+
