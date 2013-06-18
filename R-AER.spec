@@ -4,7 +4,7 @@
 
 Name:             R-%{packname}
 Version:          1.1_9
-Release:          2
+Release:          3
 Summary:          Applied Econometrics with R
 Group:            Sciences/Mathematics
 License:          GPL-2
