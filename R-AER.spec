@@ -8,7 +8,7 @@ Release:          3
 Summary:          Applied Econometrics with R
 Group:            Sciences/Mathematics
 License:          GPL-2
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.1-9.tar.gz
 Requires:         R-stats R-car R-Formula R-lmtest R-sandwich R-strucchange
 Requires:         R-survival R-zoo R-stats
